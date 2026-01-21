@@ -62,7 +62,7 @@ Copy `badge_main.py` to your Badger 2040 as `main.py`. This acts as the receiver
 
 Run the sensor monitor on your computer:
 ```bash
-python badge_co2.py
+python main.py
 ```
 
 The script will:
@@ -88,7 +88,7 @@ The script will:
 
 ### Warning Thresholds
 
-Default thresholds can be modified in `badge_co2.py`:
+Default thresholds can be modified in `main.py`:
 
 | Sensor | Warning | Danger |
 |--------|---------|--------|
